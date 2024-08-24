@@ -1,44 +1,44 @@
 body{
     background-color: blue;
-    font-family: "Open Sans", sans-serif;
     color: white;
 }
-#div-img{
-    width: 40%;
-    margin-top: 150px;
-    margin-left: 60px;
-    display: inline-block;
+.section-wrapper{
+    padding: 150px;
+    width: 100%; 
+    font-family: "Open Sans", sans-serif ;
+    
 }
-#div-text{
-    width: 510px;
+.text-items{
     display: inline-block;
-    margin: 0 100px 0 100px;
+    width: 49%;
+    vertical-align: top;
 }
-h1{
+.img-items{
+    display: inline-block;
+    width: 49%;
+    border-radius: 20px;
+}
+.text-items h1{
     font-size: 45px;
-    line-height: 1.5;
-    letter-spacing: 2px;
-    margin-bottom: 70px;
-    margin-left: 100 px;
-}
-p{
-    line-height: 1.5;
-    letter-spacing: 2;
+    line-height: 1.4;
     margin-bottom: 50px;
-    font-weight: bold;
-    font-size: medium;
+    letter-spacing: 1.2px;
 
 }
-button{
-    padding: 12px;
-    color: blue;
-    border-radius: 5px;
+.img-items img{
+    border-radius: 15px;
+}
+.text-items p{
+    color: rgb(249, 245, 245);
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.text-items button{
     border: none;
-}
-img{
-    border-radius: 10px;
-}
-button:hover{
+    border-radius: 5px;
+    color: blue;
+    padding:10px;
     cursor: pointer;
-    padding: 10px;
 }
